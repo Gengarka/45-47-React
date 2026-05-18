@@ -1,0 +1,1 @@
+var e={name:`Chikenburbe`,address:`ул. Косяковых 228`,phone:`+7 (666) 964-67-69`,workHours:`Пн-Вс: 16:00 - 05:00`};export{e as t};

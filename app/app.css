@@ -1,0 +1,42 @@
+/* импорт шрифта из google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..800&display=swap');
+/* импорт tailwind css*/
+@import "tailwindcss";
+
+/* базовые стили для html и body*/
+html,
+body {
+    background-color: #faf7f4;
+    color: #3d2e26;
+    font-family:
+    "Nunito",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
+}
+
+/* медиа-запрос для автоматического переключения цветовой схемы на тёмную*/
+@media (prefers-color-scheme: dark) {
+    html,
+    body {
+    color-scheme: dark;
+    }
+}
+
+/* определение кастомной цветовой темы tailwind */
+@theme {
+    --color-copper-50: #faf7f4;
+    --color-copper-100: #f2e8e0;
+    --color-copper-200: #e4cfbf;
+    --color-copper-400: #d19a73;
+    --color-copper-600: #b56b3f;
+    --color-copper-700: #985a34;
+    --color-copper-800: #7a4829;
+    --color-copper-900: #3d2e26;
+    --color-copper-950: #241a14;
+}
